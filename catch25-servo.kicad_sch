@@ -1380,6 +1380,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ45CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ45CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 45.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ45CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ45CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:TC7WH241FK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3266,6 +3428,12 @@
 		(uuid "92f84c82-976e-4423-a665-8faafb78e5cc")
 	)
 	(junction
+		(at 121.92 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb9e321-aede-4fb9-84d6-cbb270767e88")
+	)
+	(junction
 		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3306,6 +3474,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e11783a2-08ce-44d6-8d54-7c327dfccae8")
+	)
+	(junction
+		(at 121.92 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e17411d1-38aa-4275-abc2-623699d6f821")
 	)
 	(no_connect
 		(at 83.82 137.16)
@@ -3402,6 +3576,16 @@
 			(type default)
 		)
 		(uuid "03085f43-2c96-49cd-a11e-0fa024ce714b")
+	)
+	(wire
+		(pts
+			(xy 121.92 35.56) (xy 110.49 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037b496f-a529-4c98-8101-1cd67f664620")
 	)
 	(wire
 		(pts
@@ -3562,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "53ead7ad-7e9b-4443-af20-a0efaa8bf041")
+	)
+	(wire
+		(pts
+			(xy 119.38 31.75) (xy 119.38 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc69f3d-f601-4fc3-98f9-3b37489735c5")
 	)
 	(wire
 		(pts
@@ -3815,6 +4009,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 39.37) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd5ba6-145a-4082-a96a-db230a5c8340")
+	)
+	(wire
+		(pts
 			(xy 49.53 52.07) (xy 49.53 50.8)
 		)
 		(stroke
@@ -3915,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 31.75) (xy 119.38 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c41773-e447-4a8c-9a42-72a7f4e8cc34")
+	)
+	(wire
+		(pts
 			(xy 66.04 90.17) (xy 81.28 90.17)
 		)
 		(stroke
@@ -3922,6 +4136,16 @@
 			(type default)
 		)
 		(uuid "d886dff6-57f9-4f20-8a7e-3e87833e51a1")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc23f74-6cca-4a4f-9bb3-92ae358d3f89")
 	)
 	(wire
 		(pts
@@ -3992,6 +4216,16 @@
 			(type default)
 		)
 		(uuid "ef8a10b1-4df8-4525-b6f3-6e8bd0e7a063")
+	)
+	(wire
+		(pts
+			(xy 119.38 33.02) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e98633-3fbb-4068-b2ec-5ccff29c7ea4")
 	)
 	(wire
 		(pts
@@ -7591,6 +7825,76 @@
 			(project "catch25-servo"
 				(path "/258edf5e-88de-4649-9dc2-08e73f17f733"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ45CA")
+		(at 106.68 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a19549-47ff-406d-97a4-479f5431f1ed")
+		(property "Reference" "D2"
+			(at 109.22 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ45CA"
+			(at 109.22 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 45.0Vr, SMA(DO-214AC)"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665ed5ae-0a02-4a56-ae43-7274d14028ed")
+		)
+		(pin "2"
+			(uuid "11285d3f-001c-46df-aadd-2678492595f9")
+		)
+		(instances
+			(project ""
+				(path "/258edf5e-88de-4649-9dc2-08e73f17f733"
+					(reference "D2")
 					(unit 1)
 				)
 			)
