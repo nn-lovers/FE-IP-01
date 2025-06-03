@@ -1,10 +1,9 @@
 Comment,Designator,Footprint,LCSC,Quantity
 Conn_01x03,J1,Molex_SPOX_5268-03A_1x03_P2.50mm_Horizontal,,1
 OKL-T_6-W12N-C,MD1,MURATA_OKL-T-6-W12N-C_0,,1
-22u,C2,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,1
+22u,C2,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,1
 10u,C3,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,1
 10k,R7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,1
-MC78L05_SOT89,U2,SOT-89-3,,1
 Conn_01x06,J4,PinSocket_1x06_P2.54mm_Vertical,,1
 0.1u,C5,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,1
 10u,C1,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,1
@@ -21,3 +20,4 @@ Conn_01x03,J2,Molex_SPOX_5268-03A_1x03_P2.50mm_Horizontal,,1
 Conn_01x02,J5,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,,1
 SMAJ45CA,D2,D_SMA_Handsoldering,,1
 10k,R6,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,1
+AMS1117-5.0,U3,SOT-223-3_TabPin2,,1
